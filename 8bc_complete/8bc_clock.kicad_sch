@@ -2167,7 +2167,7 @@
   (symbol (lib_id "74xx:74LS04") (at 217.17 81.28 270) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0379eb96-dd4a-4e2b-8a80-9b2bd7b93c78)
-    (property "Reference" "U4" (at 222.25 80.645 90)
+    (property "Reference" "U2" (at 222.25 80.645 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS04" (at 222.25 83.185 90)
@@ -2196,7 +2196,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U4") (unit 3)
+          (reference "U2") (unit 3)
         )
       )
       (project "8bc_clock"
@@ -2210,7 +2210,7 @@
   (symbol (lib_id "74xx:74LS32") (at 133.35 149.86 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 093c26e4-e164-4cb6-9ac7-d286d7fa9795)
-    (property "Reference" "U6" (at 133.35 142.24 0)
+    (property "Reference" "U3" (at 133.35 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS32" (at 133.35 144.78 0)
@@ -2239,7 +2239,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U6") (unit 4)
+          (reference "U3") (unit 4)
         )
       )
       (project "8bc_clock"
@@ -2284,7 +2284,7 @@
   (symbol (lib_id "74xx:74LS04") (at 154.94 135.89 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 104846e1-3cbe-4c64-9333-4ee684ac805f)
-    (property "Reference" "U4" (at 154.94 128.27 0)
+    (property "Reference" "U2" (at 154.94 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS04" (at 154.94 130.81 0)
@@ -2313,7 +2313,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U4") (unit 5)
+          (reference "U2") (unit 5)
         )
       )
       (project "8bc_clock"
@@ -2327,7 +2327,7 @@
   (symbol (lib_id "74xx:74LS04") (at 80.01 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 157af38e-0800-47f0-9a7b-b8d089e2d322)
-    (property "Reference" "U4" (at 80.01 100.33 0)
+    (property "Reference" "U2" (at 80.01 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS04" (at 80.01 102.87 0)
@@ -2356,7 +2356,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
       (project "8bc_clock"
@@ -2370,7 +2370,7 @@
   (symbol (lib_id "Switch:SW_DIP_x01") (at 91.44 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25206da0-8320-41e3-8a54-84c6be9c39c1)
-    (property "Reference" "SW2" (at 91.44 50.8 0)
+    (property "Reference" "SW1" (at 91.44 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DIP_x01" (at 91.44 53.34 0)
@@ -2387,7 +2387,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "SW2") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
       (project "8bc_clock"
@@ -2401,7 +2401,7 @@
   (symbol (lib_id "74xx:74LS32") (at 133.35 121.92 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 263c1585-58b1-4b6d-96c6-abe5c5ad443f)
-    (property "Reference" "U6" (at 133.35 114.3 0)
+    (property "Reference" "U3" (at 133.35 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS32" (at 133.35 116.84 0)
@@ -2430,7 +2430,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U6") (unit 2)
+          (reference "U3") (unit 2)
         )
       )
       (project "8bc_clock"
@@ -2444,7 +2444,7 @@
   (symbol (lib_id "74xx:74LS08") (at 80.01 133.35 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29e4983c-926b-4b0f-989e-1292d094bb0c)
-    (property "Reference" "U5" (at 86.36 132.715 0)
+    (property "Reference" "U4" (at 86.36 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS08" (at 86.36 135.255 0)
@@ -2473,7 +2473,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U5") (unit 5)
+          (reference "U4") (unit 5)
         )
       )
       (project "8bc_clock"
@@ -2524,7 +2524,7 @@
   (symbol (lib_id "74xx:74LS08") (at 107.95 129.54 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b82acfd-08bd-4891-8e3f-0a9beedb3d2b)
-    (property "Reference" "U5" (at 107.9417 121.92 0)
+    (property "Reference" "U4" (at 107.9417 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS08" (at 107.9417 124.46 0)
@@ -2553,7 +2553,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U5") (unit 4)
+          (reference "U4") (unit 4)
         )
       )
       (project "8bc_clock"
@@ -2629,7 +2629,7 @@
   (symbol (lib_id "74xx:74LS32") (at 129.54 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c7c70a0-0ee9-451d-8199-4b7165e6a67f)
-    (property "Reference" "U6" (at 129.54 91.44 0)
+    (property "Reference" "U3" (at 129.54 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS32" (at 129.54 93.98 0)
@@ -2658,7 +2658,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U6") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
       (project "8bc_clock"
@@ -2709,7 +2709,7 @@
   (symbol (lib_id "Timer:ICM7555xP") (at 179.07 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7360f501-134d-4952-8bf1-a00d3eba456e)
-    (property "Reference" "U3" (at 181.0259 54.61 0)
+    (property "Reference" "U6" (at 181.0259 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ICM7555xP" (at 181.0259 57.15 0)
@@ -2732,7 +2732,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U3") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
       (project "8bc_clock"
@@ -2746,7 +2746,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Pin") (at 222.25 53.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c5132ea-c89e-4be7-8a7c-88317c4598ae)
-    (property "Reference" "J1" (at 221.615 44.45 0)
+    (property "Reference" "J2" (at 221.615 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x05_Pin" (at 213.36 45.72 0)
@@ -2766,7 +2766,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
       (project "8bc_clock"
@@ -2879,7 +2879,7 @@
   (symbol (lib_id "74xx:74LS04") (at 181.61 92.71 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88e2991f-04ff-4d2e-ba7c-0c47060d3792)
-    (property "Reference" "U4" (at 181.61 85.09 0)
+    (property "Reference" "U2" (at 181.61 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS04" (at 181.61 87.63 0)
@@ -2908,7 +2908,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U4") (unit 2)
+          (reference "U2") (unit 2)
         )
       )
       (project "8bc_clock"
@@ -2922,7 +2922,7 @@
   (symbol (lib_id "74xx:74LS08") (at 95.25 110.49 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8da126ad-0398-4279-82b1-8db05eb58790)
-    (property "Reference" "U5" (at 95.2417 102.87 0)
+    (property "Reference" "U4" (at 95.2417 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS08" (at 95.2417 105.41 0)
@@ -2951,7 +2951,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U5") (unit 2)
+          (reference "U4") (unit 2)
         )
       )
       (project "8bc_clock"
@@ -2996,7 +2996,7 @@
   (symbol (lib_id "Device:R") (at 137.16 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e5473e2-70f8-499b-a097-c4538b2003b0)
-    (property "Reference" "R3" (at 139.7 55.245 0)
+    (property "Reference" "R4" (at 139.7 55.245 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 139.7 57.785 0)
@@ -3013,7 +3013,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "R3") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
       (project "8bc_clock"
@@ -3027,7 +3027,7 @@
   (symbol (lib_id "74xx:74LS04") (at 154.94 149.86 0) (unit 6)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8fe43d67-aa58-40d2-b606-82b2dad6098a)
-    (property "Reference" "U4" (at 154.94 142.24 0)
+    (property "Reference" "U2" (at 154.94 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS04" (at 154.94 144.78 0)
@@ -3056,7 +3056,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U4") (unit 6)
+          (reference "U2") (unit 6)
         )
       )
       (project "8bc_clock"
@@ -3070,7 +3070,7 @@
   (symbol (lib_id "74xx:74LS04") (at 59.69 133.35 0) (unit 7)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 909d3eda-2899-4d78-9329-06d1ad85f6ed)
-    (property "Reference" "U4" (at 66.04 132.715 0)
+    (property "Reference" "U2" (at 66.04 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS04" (at 66.04 135.255 0)
@@ -3099,7 +3099,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U4") (unit 7)
+          (reference "U2") (unit 7)
         )
       )
       (project "8bc_clock"
@@ -3113,7 +3113,7 @@
   (symbol (lib_id "Timer:ICM7555xP") (at 118.11 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93c15223-70f9-4c09-810e-c07485f9ec4b)
-    (property "Reference" "U2" (at 120.0659 54.61 0)
+    (property "Reference" "U5" (at 120.0659 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ICM7555xP" (at 120.0659 57.15 0)
@@ -3139,7 +3139,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U2") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
       (project "8bc_clock"
@@ -3153,7 +3153,7 @@
   (symbol (lib_id "74xx:74LS04") (at 154.94 121.92 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9799facc-4ec0-42ef-8208-0fb4aad07b71)
-    (property "Reference" "U4" (at 154.94 114.3 0)
+    (property "Reference" "U2" (at 154.94 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS04" (at 154.94 116.84 0)
@@ -3182,7 +3182,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U4") (unit 4)
+          (reference "U2") (unit 4)
         )
       )
       (project "8bc_clock"
@@ -3270,7 +3270,7 @@
   (symbol (lib_id "74xx:74LS08") (at 154.94 101.6 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a80a7348-9a1b-4a88-aa44-2420df697306)
-    (property "Reference" "U5" (at 154.9317 93.98 0)
+    (property "Reference" "U4" (at 154.9317 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS08" (at 154.9317 96.52 0)
@@ -3299,7 +3299,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U5") (unit 3)
+          (reference "U4") (unit 3)
         )
       )
       (project "8bc_clock"
@@ -3313,7 +3313,7 @@
   (symbol (lib_id "74xx:74LS32") (at 69.85 133.35 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b042db7d-2b24-4b16-ac83-a41ec72a75d4)
-    (property "Reference" "U6" (at 76.2 132.715 0)
+    (property "Reference" "U3" (at 76.2 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS32" (at 76.2 135.255 0)
@@ -3342,7 +3342,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U6") (unit 5)
+          (reference "U3") (unit 5)
         )
       )
       (project "8bc_clock"
@@ -3356,7 +3356,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 151.13 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb52fa5d-5020-43db-9e3b-1afcb886ff15)
-    (property "Reference" "SW1" (at 151.13 57.15 0)
+    (property "Reference" "SW2" (at 151.13 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPDT" (at 151.13 59.69 0)
@@ -3374,7 +3374,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "SW1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
       (project "8bc_clock"
@@ -3420,7 +3420,7 @@
   (symbol (lib_id "74xx:74LS32") (at 133.35 135.89 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c82d2cd2-a6f7-4e84-8d4d-788c583dc800)
-    (property "Reference" "U6" (at 133.35 128.27 0)
+    (property "Reference" "U3" (at 133.35 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS32" (at 133.35 130.81 0)
@@ -3449,7 +3449,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U6") (unit 3)
+          (reference "U3") (unit 3)
         )
       )
       (project "8bc_clock"
@@ -3537,7 +3537,7 @@
   (symbol (lib_id "74xx:74LS08") (at 95.25 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2aadd6f-df48-4091-88e3-34cb2d94e169)
-    (property "Reference" "U5" (at 95.2417 87.63 0)
+    (property "Reference" "U4" (at 95.2417 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS08" (at 95.2417 90.17 0)
@@ -3566,7 +3566,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "U5") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
       (project "8bc_clock"
@@ -3580,7 +3580,7 @@
   (symbol (lib_id "Device:R") (at 102.87 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ead79583-7330-4742-93d4-9927f2719665)
-    (property "Reference" "R4" (at 105.41 56.515 0)
+    (property "Reference" "R3" (at 105.41 56.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 105.41 59.055 0)
@@ -3597,7 +3597,7 @@
     (instances
       (project "8bc"
         (path "/a576be9c-3cc4-480a-8109-5c4e1f9a10cb/407803d0-6a3e-419b-9c73-6b2aea9dd8a4"
-          (reference "R4") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "8bc_clock"
