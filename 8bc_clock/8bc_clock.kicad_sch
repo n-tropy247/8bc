@@ -2629,7 +2629,7 @@
     (property "Reference" "R7" (at 198.12 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "200" (at 198.12 92.075 0)
+    (property "Value" "220" (at 198.12 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 193.802 90.17 90)
