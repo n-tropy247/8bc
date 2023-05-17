@@ -48,8 +48,19 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|190500000|114250000|ac9acf3b-c98d-4344-b6b1-b8269c54fe8b|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|190500000|55830000|6fcded77-2532-40f2-95d4-37ec0a722de8|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|81280000|114250000|68d27b40-f32b-489c-9d79-ac2671363b20|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|81280000|55830000|f9f2cf7a-d04c-4c4b-a693-5a4aaf74f233|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -165,8 +176,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -177,9 +195,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "lib_symbol_issues|2222500|533400|7c5132ea-c89e-4be7-8a7c-88317c4598ae|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
