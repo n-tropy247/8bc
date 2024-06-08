@@ -1,0 +1,51 @@
+* SN74LS32 Quad 2-Input OR Gates Simulation
+
+* Define the power supply
+VCC 14 0 DC 5V
+
+* Define the ground
+VSS 7 0 0V
+
+* Define input signals for all gates
+V1 1 0 PULSE(0 5 0 10n 10n 20n 40n)  * Pulse signal for input 1A
+V2 2 0 PULSE(0 5 10n 10n 10n 20n 40n) * Pulse signal for input 1B
+V3 4 0 PULSE(0 5 20n 10n 10n 20n 40n) * Pulse signal for input 2A
+V4 5 0 PULSE(0 5 30n 10n 10n 20n 40n) * Pulse signal for input 2B
+V5 9 0 PULSE(0 5 40n 10n 10n 20n 40n) * Pulse signal for input 3A
+V6 10 0 PULSE(0 5 50n 10n 10n 20n 40n) * Pulse signal for input 3B
+V7 12 0 PULSE(0 5 60n 10n 10n 20n 40n) * Pulse signal for input 4A
+V8 13 0 PULSE(0 5 70n 10n 10n 20n 40n) * Pulse signal for input 4B
+
+* OR gate connections
+X1 1 2 3 14 7 SN74LS32  * Gate 1
+X2 4 5 6 14 7 SN74LS32  * Gate 2
+X3 9 10 11 14 7 SN74LS32 * Gate 3
+X4 12 13 8 14 7 SN74LS32 * Gate 4
+
+* Subcircuit definition for SN74LS32 with all 14 pins
+.subckt SN74LS32 1A 1B 1Y 2A 2B 2Y GND 3Y 3A 3B 4Y 4A 4B VCC
+* Gate 1
+M1 1Y 1A 14 GND NMOS L=1u W=1u
+M2 1Y 1B 14 GND NMOS L=1u W=1u
+R1 1Y VCC 10k
+* Gate 2
+M3 2Y 2A 14 GND NMOS L=1u W=1u
+M4 2Y 2B 14 GND NMOS L=1u W=1u
+R2 2Y VCC 10k
+* Gate 3
+M5 3Y 3A 14 GND NMOS L=1u W=1u
+M6 3Y 3B 14 GND NMOS L=1u W=1u
+R3 3Y VCC 10k
+* Gate 4
+M7 4Y 4A 14 GND NMOS L=1u W=1u
+M8 4Y 4B 14 GND NMOS L=1u W=1u
+R4 4Y VCC 10k
+.ends SN74LS32
+
+* Simulation control
+.tran 0.1n 100n
+
+* Outputs
+.print tran V(3) V(6) V(8) V(11)
+
+.end

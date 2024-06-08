@@ -1,0 +1,42 @@
+* LM555N Timer Simulation
+
+* Define the power supply
+VCC 8 0 DC 5V
+
+* Define the ground
+GND 1 0 0V
+
+* Define input signals
+VTR 2 0 PULSE(0 5 0 10n 10n 20n 40n)  * Trigger input
+VCONT 5 0 PULSE(0 5 0 10n 10n 20n 40n)  * Control voltage input
+
+* Connect the LM555N timer
+X1 2 0 3 4 5 6 7 8 LM555N
+
+* Subcircuit definition for LM555N timer with modified pin names
+.subckt LM555N GND TR Q R CV THR DIS VCC
+* Ground
+RGND GND N008 1k
+* Trigger input
+RTR TR N001 1k
+* Output
+RO Q N002 1k
+* Reset input
+RR R N003 1k
+* Control voltage input
+RCV CV N004 1k
+* Threshold input
+RTHR THR N005 1k
+* Discharge output
+RDIS DIS N006 1k
+* VCC
+RVCC VCC N007 1k
+.ends LM555N
+
+* Simulation control
+.tran 0.1n 100n
+
+* Outputs
+.print tran V(3) V(4) V(5) V(6) V(7)
+
+.end
